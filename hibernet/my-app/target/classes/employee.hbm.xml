@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="com.mycompany.model.Employee" table="university">  
+    <id name="univercityid">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="collegeid"></property>  
+    <property name="collegename"></property>  
+            
+  </class>  
+
+
+        
+  
+  <class name="com.mycompany.model.College" table="colleges">  
+    <id name="collegeid">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="collegename"></property>  
+    <property name="numofdep"></property>  
+    <property name="numofstudent"></property>  
+            
+  </class>  
+
+ </hibernate-mapping>  
