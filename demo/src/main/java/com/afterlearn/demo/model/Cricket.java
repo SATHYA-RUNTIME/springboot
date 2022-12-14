@@ -36,7 +36,7 @@ public class Cricket {
     }
     @Override
     public String toString() {
-        return "Cricket [cid=" + cid + ", name=" + name + ", catogary=" + catogary + ", age=" + age + "]";
+        return "Cricket [cid=" + cid + ", \n name=" + name + ", \ncatogary=" + catogary + ", \nage=" + age + "]";
     }
 
 
